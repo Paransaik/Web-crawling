@@ -1,4 +1,9 @@
 # 웹 크롤링
+'''
+1. https://chromedriver.chromium.org/
+2. release chrome driver
+3. driver.get('url'
+'''
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
