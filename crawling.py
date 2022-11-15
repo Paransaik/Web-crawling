@@ -1,15 +1,8 @@
-# 웹 크롤링
-'''
-0. pip install -r requirments.txt
-1. https://chromedriver.chromium.org/
-2. release chrome driver
-3. driver.get('url'
-'''
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-driver = webdriver.Chrome(executable_path='C:\\chromedriver.exe')
+driver = webdriver.Chrome(executable_path='C:\\Users\\Osstem\\Desktop\\Web-crawling\\chromedriver.exe')
 driver.implicitly_wait(10)
 driver.get('http://mcdonalds.co.kr')
 
